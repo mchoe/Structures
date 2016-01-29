@@ -13,6 +13,9 @@
 		8A613A1F1C5BC91D00E5B94A /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A613A1E1C5BC91D00E5B94A /* Stack.swift */; };
 		8A613A201C5BC91D00E5B94A /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A613A1E1C5BC91D00E5B94A /* Stack.swift */; };
 		8A613A221C5BC95B00E5B94A /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A613A211C5BC95B00E5B94A /* StackTests.swift */; };
+		8A613A241C5BC99700E5B94A /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A613A231C5BC99700E5B94A /* Matrix.swift */; };
+		8A613A251C5BC99700E5B94A /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A613A231C5BC99700E5B94A /* Matrix.swift */; };
+		8A613A271C5BC9A600E5B94A /* MatrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A613A261C5BC9A600E5B94A /* MatrixTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 		8A613A151C5BC6D500E5B94A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A613A1E1C5BC91D00E5B94A /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		8A613A211C5BC95B00E5B94A /* StackTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
+		8A613A231C5BC99700E5B94A /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		8A613A261C5BC9A600E5B94A /* MatrixTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				8A613A071C5BC6D500E5B94A /* Structures.h */,
+				8A613A231C5BC99700E5B94A /* Matrix.swift */,
 				8A613A1E1C5BC91D00E5B94A /* Stack.swift */,
 				8A613A091C5BC6D500E5B94A /* Info.plist */,
 			);
@@ -88,6 +94,7 @@
 			children = (
 				8A613A131C5BC6D500E5B94A /* StructuresTests.swift */,
 				8A613A151C5BC6D500E5B94A /* Info.plist */,
+				8A613A261C5BC9A600E5B94A /* MatrixTests.swift */,
 				8A613A211C5BC95B00E5B94A /* StackTests.swift */,
 			);
 			path = StructuresTests;
@@ -201,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A613A241C5BC99700E5B94A /* Matrix.swift in Sources */,
 				8A613A1F1C5BC91D00E5B94A /* Stack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +217,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A613A271C5BC9A600E5B94A /* MatrixTests.swift in Sources */,
+				8A613A251C5BC99700E5B94A /* Matrix.swift in Sources */,
 				8A613A201C5BC91D00E5B94A /* Stack.swift in Sources */,
 				8A613A141C5BC6D500E5B94A /* StructuresTests.swift in Sources */,
 				8A613A221C5BC95B00E5B94A /* StackTests.swift in Sources */,
