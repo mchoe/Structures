@@ -6,7 +6,7 @@
 //  Copyright © 2016 Strauss LLC. All rights reserved.
 //
 //
-//  Copyright (c) 2015 Michael Choe
+//  Copyright (c) 2016 Michael Choe
 //  http://www.straussmade.com/
 //  http://www.twitter.com/_mchoe
 //  http://www.github.com/mchoe
@@ -32,7 +32,7 @@
 
 import Foundation
 
-public class BinarySearchTree<T: Comparable>: ArrayLiteralConvertible {
+public class BinarySearchTree<T where T:Comparable>: Tree<T>, ArrayLiteralConvertible {
     
     public var value: T?
     var leftTree: BinarySearchTree<T>?
@@ -41,10 +41,10 @@ public class BinarySearchTree<T: Comparable>: ArrayLiteralConvertible {
     convenience init(data: T) {
         self.init()
         self.append(data)
-        
     }
     
     required public init(arrayLiteral elements: T...) {
+        super.init()
         for thisElement in elements {
             self.append(thisElement)
         }

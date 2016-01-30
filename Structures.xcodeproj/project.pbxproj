@@ -91,12 +91,11 @@
 		8A613A061C5BC6D500E5B94A /* Structures */ = {
 			isa = PBXGroup;
 			children = (
+				8AE843D21C5D31EB00B05EBE /* Trees */,
 				8A613A071C5BC6D500E5B94A /* Structures.h */,
 				8A613A231C5BC99700E5B94A /* Matrix.swift */,
 				8A613A1E1C5BC91D00E5B94A /* Stack.swift */,
-				8A613A281C5BC9FD00E5B94A /* Tree.swift */,
 				8A613A091C5BC6D500E5B94A /* Info.plist */,
-				8AE843C71C5D15C800B05EBE /* BinarySearchTree.swift */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
@@ -104,14 +103,31 @@
 		8A613A121C5BC6D500E5B94A /* StructuresTests */ = {
 			isa = PBXGroup;
 			children = (
+				8AE843D51C5D32CA00B05EBE /* Trees */,
 				8A613A131C5BC6D500E5B94A /* StructuresTests.swift */,
 				8A613A151C5BC6D500E5B94A /* Info.plist */,
 				8A613A261C5BC9A600E5B94A /* MatrixTests.swift */,
 				8A613A211C5BC95B00E5B94A /* StackTests.swift */,
-				8AE843C91C5D15DF00B05EBE /* TreeTests.swift */,
-				8AE843CB1C5D15F100B05EBE /* BinarySearchTreeTests.swift */,
 			);
 			path = StructuresTests;
+			sourceTree = "<group>";
+		};
+		8AE843D21C5D31EB00B05EBE /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+				8AE843C71C5D15C800B05EBE /* BinarySearchTree.swift */,
+				8A613A281C5BC9FD00E5B94A /* Tree.swift */,
+			);
+			name = Trees;
+			sourceTree = "<group>";
+		};
+		8AE843D51C5D32CA00B05EBE /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+				8AE843CB1C5D15F100B05EBE /* BinarySearchTreeTests.swift */,
+				8AE843C91C5D15DF00B05EBE /* TreeTests.swift */,
+			);
+			name = Trees;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
