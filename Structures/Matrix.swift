@@ -1,7 +1,6 @@
 //
 //  Matrix.swift
-//  Breakfast
-//  Start you next Swift project off right with Breakfast
+//  Structures
 //
 //
 //  Copyright (c) 2015 Michael Choe
