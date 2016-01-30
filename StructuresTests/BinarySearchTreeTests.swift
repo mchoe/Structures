@@ -22,4 +22,14 @@ class BinarySearchTreeTests: XCTestCase {
         XCTAssertTrue(testTree.isLeaf, "A tree with one node is a leaf")
     }
     
+    func testMinMaxValues() {
+        
+        let testTree: BinarySearchTree = [7, 2, 10, 6, 1, 22, 13]
+        
+        XCTAssertEqual(testTree.minValue, 1, "Minimum value should be 1")
+        
+        XCTAssertEqual(testTree.maxValue, 22, "Maximum value should be 22")
+        
+    }
+    
 }

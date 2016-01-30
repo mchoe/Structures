@@ -89,6 +89,28 @@ extension BinarySearchTree {
 
 extension BinarySearchTree {
     
+    var minValue: T {
+        
+        precondition(self.value != nil, "Empty trees cannot have a minimum value")
+        
+        if self.leftTree == nil {
+            return self.value!
+        } else {
+            return self.leftTree!.minValue
+        }
+    }
+    
+    var maxValue: T {
+        
+        precondition(self.value != nil, "Empty trees cannot have a minimum value")
+        
+        if self.rightTree == nil {
+            return self.value!
+        } else {
+            return self.rightTree!.maxValue
+        }
+    }
+    
     public func find(searchValue: T) -> BinarySearchTree? {
         
         if self.value == searchValue {
